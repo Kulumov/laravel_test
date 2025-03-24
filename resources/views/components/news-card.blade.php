@@ -1,7 +1,7 @@
 @props(["item"])
 
 <div class="card m-3 " style="width: 18rem;">
-    <img src="{{url('storage/' . $item->image)}}" class="card-img-top" alt="{{$item->name}}">
+    <img src="{{url('storage/' . $item->image)}}" class="card-img-top" alt="{{$item->name}}" height="200" width="300">
     <div class="card-body">
         <h5 class="card-title">{{$item->name}}</h5>
         {{-- <p class="card-text">{{$item->description}}</p> --}}
