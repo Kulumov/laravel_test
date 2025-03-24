@@ -5,6 +5,9 @@ composer 2.8.4
 download and unarchive the project
 open the project folder in the command line
 
+install all the necessary dependencues using:
+composer install
+
 make the necessary migrations using
 php artisan migrate
 command
